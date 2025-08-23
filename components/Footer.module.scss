@@ -1,0 +1,59 @@
+.footer {
+  h2 {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+
+    @media (min-width: 640px) {
+      font-size: 1.25rem;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1.5rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 1.25rem;
+    }
+
+    @media (min-width: 1536px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    font-size: 1.125rem;
+
+    @media (min-width: 640px) {
+      font-size: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 1.125rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 1rem;
+    }
+
+    @media (min-width: 1536px) {
+      font-size: 1.125rem;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    span {
+      display: block;
+    }
+
+    a {
+      transition: color 0.3s;
+
+      &:hover {
+        color: #d8252f;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.box {
+  padding-top: 71.83333%;
+}
+
+.animate {
+  &:hover {
+    img {
+      transform: scale(1.1);
+    }
+  }
+}

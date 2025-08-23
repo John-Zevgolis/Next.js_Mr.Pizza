@@ -1,0 +1,22 @@
+.sidebar {
+  scrollbar-color: #97211a #fff;
+  scrollbar-width: thin;
+
+  @media (max-width: 419.98px) {
+    max-width: none;
+  }
+
+  &.active-sidebar {
+    transform: translateX(100%);
+  }
+}
+
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+
+  &.active-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+}
