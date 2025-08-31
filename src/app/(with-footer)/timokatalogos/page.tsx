@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { fetchContent, fetchTitle } from '../../../../cosmic';
 
 export const generateMetadata = async (): Promise<Metadata> => {
-  const title = await fetchTitle('timokatalogos');
+  const { title } = await fetchTitle('timokatalogos');
   return {
     title: `Mr.Pizza | ${title}`,
   };
