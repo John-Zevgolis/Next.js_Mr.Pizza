@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   title: 'Mr.Pizza',
   description:
     'Η καλύτερη πίτσα της πόλης !!! Απόλλωνος 71 & Αρτέμιδος, Ηλιούπολη, 164 43 Αθήνα.',
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default async function RootLayout({
