@@ -33,34 +33,6 @@ Designed with performance, scalability, and user experience in mind, the applica
 
 ---
 
-# 📸 Screenshots
-
-## Home Page
-
-> Add screenshot here
-
-```text
-/public/screenshots/home.png
-```
-
-## Pizza Details
-
-> Add screenshot here
-
-```text
-/public/screenshots/product.png
-```
-
-## Cart
-
-> Add screenshot here
-
-```text
-/public/screenshots/cart.png
-```
-
----
-
 # 🚀 Tech Stack
 
 | Technology | Description |
