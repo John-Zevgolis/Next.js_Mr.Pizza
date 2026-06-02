@@ -19,32 +19,30 @@ Designed with performance, scalability, and user experience in mind, the applica
 
 # ✨ Features
 
-- 🍕 Browse pizza menu
-- 🔎 Search and filter products
-- 🛒 Shopping cart functionality
-- ❤️ Favorite products
-- 📱 Fully responsive design
-- ⚡ Fast page loading
-- 🔥 Server-side rendering
-- 🎨 Modern UI/UX
-- 🌙 Dark mode support
-- 🔐 Authentication ready
-- 📦 Order management ready
+- 🍕 Dynamic Pizza Menu powered by Cosmic CMS
+- 📄 CMS-managed Product Content
+- 🔍 Search & Browse Products
+- 📱 Fully Responsive Design
+- ⚡ Fast Performance with Next.js
+- 🎨 Modern User Interface
+- 🖼️ Optimized Images
+- 🚀 Server-Side Rendering & Static Generation
+- 🔄 Easy Content Updates through Cosmic Dashboard
 
 ---
 
 # 🚀 Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| Next.js | React Framework |
-| React | UI Library |
-| TypeScript | Type Safety |
-| Tailwind CSS | Styling |
-| Zustand / Redux | State Management |
-| Prisma | ORM |
-| MongoDB / PostgreSQL | Database |
-| NextAuth | Authentication |
+| Technology | Purpose |
+|------------|---------|
+| Next.js 15 | Full-Stack React Framework |
+| React 19 | Frontend Library |
+| TypeScript | Type Safety & Developer Experience |
+| Tailwind CSS | Modern Styling Solution |
+| Cosmic CMS | Headless Content Management |
+| Cosmic JavaScript SDK | Fetching Content from Cosmic |
+| App Router | Modern Routing & Server Components |
+| Vercel | Hosting & Deployment |
 
 ---
 
