@@ -1,36 +1,197 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍕 Mr. Pizza
 
-## Getting Started
+A modern pizza ordering platform built with Next.js, delivering a fast, responsive, and seamless user experience.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss)
+
+---
+
+# 🍽️ Overview
+
+Mr. Pizza is a modern web application that allows customers to browse pizzas, customize their orders, manage their cart, and place orders through an intuitive and responsive interface.
+
+Designed with performance, scalability, and user experience in mind, the application leverages the power of Next.js and modern frontend technologies.
+
+---
+
+# ✨ Features
+
+- 🍕 Browse pizza menu
+- 🔎 Search and filter products
+- 🛒 Shopping cart functionality
+- ❤️ Favorite products
+- 📱 Fully responsive design
+- ⚡ Fast page loading
+- 🔥 Server-side rendering
+- 🎨 Modern UI/UX
+- 🌙 Dark mode support
+- 🔐 Authentication ready
+- 📦 Order management ready
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+> Add screenshot here
+
+```text
+/public/screenshots/home.png
+```
+
+## Pizza Details
+
+> Add screenshot here
+
+```text
+/public/screenshots/product.png
+```
+
+## Cart
+
+> Add screenshot here
+
+```text
+/public/screenshots/cart.png
+```
+
+---
+
+# 🚀 Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| Next.js | React Framework |
+| React | UI Library |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Zustand / Redux | State Management |
+| Prisma | ORM |
+| MongoDB / PostgreSQL | Database |
+| NextAuth | Authentication |
+
+---
+
+# 📁 Project Structure
+
+```bash
+Mr.Pizza/
+│
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── public/
+├── services/
+├── types/
+├── utils/
+│
+├── next.config.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/John-Zevgolis/Next.js_Mr.Pizza.git
+```
+
+Move to the project folder:
+
+```bash
+cd Next.js_Mr.Pizza
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Application will run on:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🔧 Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+Create a `.env.local` file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Example:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```env
+DATABASE_URL=
+NEXTAUTH_SECRET=
+NEXTAUTH_URL=
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 📦 Production Build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Build project:
+
+```bash
+npm run build
+```
+
+Start production server:
+
+```bash
+npm run start
+```
+
+---
+
+# 🌍 Deployment
+
+The project can be deployed on:
+
+- Vercel
+- Netlify
+- Railway
+- VPS
+- Docker
+
+---
+
+# 👨‍💻 Author
+
+### John Zevgolis
+
+GitHub:
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### 🍕 Made with passion and lots of pizza.
+
+</div>
