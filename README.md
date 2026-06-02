@@ -146,11 +146,9 @@ The project can be deployed on:
 
 # 👨‍💻 Author
 
-### John Zevgolis
+**John Zevgolis**
 
-GitHub:
-
-:contentReference[oaicite:0]{index=0}
+GitHub: https://github.com/John-Zevgolis
 
 ---
 
